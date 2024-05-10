@@ -1,12 +1,38 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --font-family: "IBM Plex Mono", 'sans-serif';
+  --background-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+  --title-color: #ffc2e6;
+  --title-shadow: #ff0070;
+  --text-color: #353430;
+  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+  --border-color: #FF0070;
+  --title-decor: #ff8dcb;
+  --link-color: #ffc2e6;
+  --subtitle-color: #353430;
+  --heading-color: #353430;
+  --rec-color: #fff1f7;
+  --menu-color: #353430;
+}
+
+.page.theme_light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+    --title-color: #ffc2e6;
+    --title-shadow: #ff0070;
+    --text-color: #353430;
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --border-color: #FF0070;
+    --title-decor: #ff8dcb;
+    --link-color: #ffc2e6;
+    --subtitle-color: #353430;
+    --heading-color: #353430;
+    --rec-color: #fff1f7;
+    --menu-color: #353430;
+  }
 }

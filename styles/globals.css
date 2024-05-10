@@ -1,14 +1,14 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+
 body {
+
   min-inline-size: 375px;
-  max-inline-size: 1440px;
+  max-inline-size: 1024px;
   margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@ p {
 
 ul {
   margin: 0;
+
   padding: 0;
   list-style: none;
 }
