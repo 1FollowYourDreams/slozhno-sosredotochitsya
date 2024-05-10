@@ -1,10 +1,12 @@
 # проект Сложно сосредоточиться.
 
+Верстка cложно сосредоточиться (https://www.figma.com/design/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=601-193&t=p59u8gomYF8OPjvX-0).
+
 Проект по созданию сайта в светлой и тёмной темах с использованием адаптивной вёрстки.
 
 Подключаем файлы и метатеги.
 Копируем из «Фигмы» свойства размеров шрифтов и значений цвета, картинки.
 текст и заголовки адаптируем под разные разрешения.
 
-[https://1FollowYourDreams.github.io/slozhno-sosredotochitsya/index.html]
-[https://www.figma.com/design/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=601-193&t=p59u8gomYF8OPjvX-0]
+
+https://github.com/1FollowYourDreams/slozhno-sosredotochitsya
