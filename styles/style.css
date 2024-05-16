@@ -192,10 +192,9 @@
 .content__card-item-title {
   color: var(--list-color);
   background-color: var(--title-shadow);
-}
-.content__card-item-title {
   font-weight: normal;
 }
+
 .content__card-paragraph,
 .content__card-item-paragraph {
   color: var(--text-color);
