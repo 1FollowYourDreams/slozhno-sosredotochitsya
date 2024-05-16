@@ -1,16 +1,15 @@
 .page.theme_dark {
-  --font-family: "IBM Plex Mono", 'sans-serif';
+  --font-family: "IBM Plex Mono", monospace;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --title-color: #DB00FF;
   --title-shadow: #FF0070;
   --text-color: #F1B2CE;
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
-  --border-color: #f1b2ce;
-  --title-decor: #FF0070;
-  --link-color: #FF0070;
   --subtitle-color: #000028;
   --heading-color: #FF0070;
   --rec-color: #FF0070;
   --menu-color: #FF0070;
+  --list-color: #000028;
+  --link-color: #FF0070;
 }
